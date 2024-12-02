@@ -1,7 +1,7 @@
 apiVersion: s3.aws.upbound.io/v1beta2
 kind: Bucket
 metadata:
-  generateName: crossplane-bucket-
+  name: dma-crossplane-bucket
 spec:
   forProvider:
     region: us-east-1
